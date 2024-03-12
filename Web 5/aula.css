@@ -1,0 +1,36 @@
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    
+}
+#box2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#contentbox{
+    position: relative;
+    border: 10px dotted red;
+    top: 100px;
+    left: 100px;
+}
+
+#box3{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+#box11{
+    width: 45px;
+    height: 45px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+}
+

@@ -1,0 +1,49 @@
+.bola{
+    width: 45px;
+    height: 45px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.box{
+    position: fixed;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bola1{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#bola3{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+#bola4{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+#box1{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#bola2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
